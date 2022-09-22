@@ -40,7 +40,20 @@ int main()
 		/* atoi converts text to number */
 		val = atoi(card_name);
 	}
-	printf("The card value is %i\n", val);
+
+	/* Check if the value is 3 to 6 */
+	if ( val >= 3 && val <= 6)
+	{
+		puts ("Count has gone up");
+	}
+
+		/* checks if the value is 10, J,Q, or K */
+		else if ( val == 10)
+		{
+			puts ("Count has gone down");
+		}
+
+	/* printf("The card value is %i\n", val); */
 
 	return (0);
 }
