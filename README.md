@@ -1,1 +1,2 @@
-My C playground.
+DESCRIPTION
+This is my C playground.
