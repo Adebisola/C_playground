@@ -1,7 +1,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 
-void complain()
+void main()
 {
-	printf ("I am really not happy");
+	printf ("I am really not happy\n");
 }
